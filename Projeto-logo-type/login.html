@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://codepen.io/andytran/pen/vLmRVp.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <script src="./login.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+  <header>
+    <nav class="menu-geral">
+      <div class="Logo">
+        <img src="/img/1-3.png" alt="" />
+      </div>
+
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="">Projetos</a></li>
+        <li><a href="">Sobre</a></li>
+        <li><a href="form.html">Contato</a></li>
+        <div class="login"><a href="login.html"><img src="img/profile.png" alt=""></a></div>
+      </ul>
+
+    
+    </nav>
+  </header>
+
+    <!-- Form-->
+<div class="form">
+    <div class="form-toggle"></div>
+    <div class="form-panel one">
+      <div class="form-header">
+        <h1>Login</h1>
+      </div>
+      <div class="form-content">
+        <form>
+          <div class="form-group">
+            <label for="username">Nome de Usuario</label>
+            <input type="text" id="username" name="username" required="required"/>
+          </div>
+          <div class="form-group">
+            <label for="password">senha</label>
+            <input type="password" id="password" name="password" required="required"/>
+          </div>
+          <div class="form-group">
+            <label class="form-remember">
+              <input type="checkbox"/>Lembrar Login
+            </label><a class="form-recovery" href="#">Esqueceu a Senha?</a>
+          </div>
+          <div class="form-group">
+            <button type="submit">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="form-panel two">
+      <div class="form-header">
+        <h1>Registrar Conta</h1>
+      </div>
+      <div class="form-content">
+        <form>
+          <div class="form-group">
+            <label for="username">Nome de Usuario</label>
+            <input type="text" id="username" name="username" required="required"/>
+          </div>
+          <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required="required"/>
+          </div>
+          <div class="form-group">
+            <label for="cpassword">Confirmar Senha</label>
+            <input type="password" id="cpassword" name="cpassword" required="required"/>
+          </div>
+          <div class="form-group">
+            <label for="email">Endereço de Email</label>
+            <input type="email" id="email" name="email" required="required"/>
+          </div>
+          <div class="form-group">
+            <button type="submit">Registrar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
